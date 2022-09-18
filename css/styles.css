@@ -22,7 +22,7 @@
  padding: 24px 0;
 
 }
-studio-list
+.studio-list
 {
 margin-right: 93px;
 }
@@ -177,15 +177,19 @@ img
     
        .button { cursor: pointer;}
     
-.overlay{
+.overlay
+{
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image:url() ;
-
+  background: #C4C4C4;;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+   rgba(47, 48, 58, 0.4), url(../images/Img-hero.jpg));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover; 
 }
-
 
 
     .solutions-page
@@ -196,6 +200,10 @@ img
    background-color:  #2F303A;
    }
     
+
+
+
+
   .title-main 
   {
    
@@ -578,3 +586,12 @@ border-top: none;
  }
 
 a{text-decoration: none;}
+.social-list-icon { 
+  width: 20px;
+  height: 20px;
+
+}
+.social-list-item
+{
+
+}
