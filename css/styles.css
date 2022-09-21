@@ -698,3 +698,88 @@ height: 70px;
 Fill: #212121;
 
 }
+.benefits-list-icon:hover,
+.benefits-list-icon:focus
+{
+  border: #2196F3;
+  fill: #2196F3;
+}
+
+
+.benefits-icon{
+
+  width: 270px;
+  height: 120px;
+  fill: 
+  #F5F4FA;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+
+    padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+
+.benefits-icon:focus
+{
+
+  fill: #2196F3;
+}
+.benefits-icon:hover{
+  border: #2196F3;
+}
+
+.contakt-phone-icon{
+  width: 10px;
+  height: 16px; 
+
+  color: var(--secondary-text-color-theme-light);
+
+}
+
+.contakt-phone-icon:hover,
+.contakt-phone-icon:hover
+{fill: 
+  #2196F3;}
+
+.contakt-number
+{display: flex;
+flex-direction:row-reverse;
+ align-items: center;
+ margin-right: 10px;
+}
+
+.number 
+{display: flex;
+  align-items: center;
+}
+
+.post-email{
+  display: flex;
+  align-items: center;
+}
+.post-email-icon
+{
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+}
+
+.post-email-icon:hover,
+.post-email-icon:focus
+{
+  fill: 
+  #2196F3; 
+}
+
+
+
+
+.post-email-link{
+  display: flex;
+flex-direction:row-reverse;
+ align-items: center;
+ margin-right: 10px;
+}
