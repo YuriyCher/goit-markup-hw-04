@@ -176,24 +176,20 @@ img
     }
     
        .button { cursor: pointer;}
-    
+     
 .overlay
 {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;}
 
-
-  background-image:  rgba (47, 48, 58, 0.4),
-   rgba(47, 48, 58, 0.4) url(../images/Img-hero.jpg);
+.overlay{
+  background-image:linear-gradient ( rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4), url(../images/Img-hero.jpg));
 
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover; 
-}
-overlay{l
-
 }
 
     .solutions-page
@@ -204,7 +200,6 @@ overlay{l
    background-color:  #2F303A;
    }
     
-
 
 
 
