@@ -182,12 +182,10 @@ img
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
-  margin-right: auto;}
-
-.overlay{
-  background-image:linear-gradient ( rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4), url(../images/Img-hero.jpg));
-
-  background-repeat: no-repeat;
+  margin-right: auto;
+ background-color: 
+ rgba(196, 196, 196, 1);
+background-image:linear-gradient((rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-hero.jpg));
   background-position: center;
   background-size:cover; 
 }
@@ -197,10 +195,9 @@ img
   text-align: center;
    padding-top:  200px;
    padding-bottom:200px;
-   background-color:  #2F303A;
+   /* background-color:  #2F303A;  */
    }
     
-
 
 
   .title-main 
@@ -831,7 +828,7 @@ background-color:
 .social-list-link-footer:hover.social-list-icon-footer
 /* .social-list-link-footer:focus.social-list-icon-footer */
 {
-   color: #2196F3;
+   background-color: #2196F3;
 
 }
 .social-list-link-footer:hover,
@@ -854,6 +851,5 @@ fill:
 .social-list-icon-footer:hover,
 .social-list-icon-footer:focus
 {
-  fill: #FFFFFF;
   background-color: #2196F3;
 }
