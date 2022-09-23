@@ -185,7 +185,8 @@ img
   margin-right: auto;
  background-color: 
  rgba(196, 196, 196, 1);
-background-image:linear-gradient((rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-hero.jpg));
+background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+url(../images/Img-hero.jpg);
   background-position: center;
   background-size:cover; 
 }
@@ -635,10 +636,22 @@ background-color: #2196F3;
   display:flex;
 align-items:baseline;
  justify-content: center;
+ 
+ border: 1px solid #AFB1B8;
+  border-radius: 4px;
+width: 100%;
+height: 100%;
+fill: #AFB1B8;
 
 } 
+.customers-list-link:hover,
+.customers-list-link:focus
+{
+  fill:#2196F3;
+  border-color:#2196F3 ;
 
- 
+
+}
 .customers-list-icon
 {
   display: flex;
@@ -648,11 +661,14 @@ align-items:baseline;
   fill: 
   #AFB1B8;
 }
-.customers-list-icon:hover,
-.customers-list-icon:focus{
+.customers-list-icon:focus,
+.customers-list-icon:hover 
+{
   fill:#2196F3;
-  
+
+
 }
+
 
 
 .customers-list-item
@@ -660,26 +676,21 @@ align-items:baseline;
   
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
+ 
 
     padding-left: 32px;
   padding-right: 32px;
   padding-top: 16px;
   padding-bottom: 16px;
- 
+  border: #2196F3;
 } 
-.customers-list-item:hover,
-.customers-list-item:focus {
-  
-border: #2196F3;
-  }
 
 
-.customers-list-item:hover.customers-list-icon
+
+.customers-list-link:hover.customers-list-icon
 {
   fill:#2196F3;
-  border: #2196F3;
+ 
 } 
 
 
@@ -689,12 +700,6 @@ width: 65.32px;
 height: 70px;
 Fill: #212121;
 
-}
-.benefits-list-icon:hover,
-.benefits-list-icon:focus
-{
-  border: #2196F3;
-  fill: #2196F3;
 }
 
 
@@ -714,16 +719,20 @@ Fill: #212121;
   margin-bottom: 30px;
 }
 
-.benefits-icon:focus
+ 
+
+/* .benefits-icon:focus
 {
 
   fill: #2196F3;
 }
 .benefits-icon:hover{
   border: #2196F3;
-}
+} */
 
-.contakt-phone-icon{
+
+.contakt-phone-icon
+{
   width: 10px;
   height: 16px; 
 
@@ -731,10 +740,10 @@ Fill: #212121;
 
 }
 
-.contakt-phone-icon:hover,
+/* .contakt-phone-icon:hover,
 .contakt-phone-icon:hover
 {fill: 
-  #2196F3;}
+  #2196F3;} */
 
 .contakt-number
 {display: flex;
@@ -747,6 +756,13 @@ flex-direction:row-reverse;
 {display: flex;
   align-items: center;
 }
+.number:hover,
+.number:focus
+{
+  fill: 
+    #2196F3;
+}
+
 
 .post-email{
   display: flex;
@@ -819,37 +835,27 @@ background-color:
  rgba(255, 255, 255, 0.1) 
 } 
 
- .social-list-link-footer:hover.social-list-icon-footer,
-.social-list-link-footer:focus.social-list-icon-footer
-{
-  background-color: #2196F3; 
-}
 
 .social-list-link-footer:hover.social-list-icon-footer
-/* .social-list-link-footer:focus.social-list-icon-footer */
+.social-list-link-footer:focus.social-list-icon-footer 
 {
    background-color: #2196F3;
 
-}
+} 
 .social-list-link-footer:hover,
-.social-list-link-footer:focus.
+.social-list-link-footer:focus
 {
     background-color: #2196F3;
 
-}
+} 
 
 
 
 .social-list-icon-footer
  {
 width: 20px;
-  height: 20px;
+height: 20px;
 fill: 
 #FFFFFF
 }
 
-.social-list-icon-footer:hover,
-.social-list-icon-footer:focus
-{
-  background-color: #2196F3;
-}
