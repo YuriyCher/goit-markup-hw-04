@@ -386,7 +386,8 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
    
    background:var(--primary-text-color-theme-dark);
   }
- .menu{margin-left: 93px;} 
+ .menu
+ {margin-left: 93px;} 
     
 .team-speciality
 {   
@@ -514,7 +515,7 @@ border-bottom:1px solid#ECECEC;
     
     }  
    
-  
+.carent.
 .flex-element
 { 
   display: block;
@@ -737,8 +738,7 @@ Fill: #212121;
   width: 10px;
   height: 16px; 
 
-  color: var(--secondary-text-color-theme-light);
-
+  color: var(--secondary-text-color-theme-light);;
 }
 
 
@@ -751,14 +751,14 @@ Fill: #212121;
 
 
 
-.contakt-number
+.contakt-email
 {display: flex;
-flex-direction:row-reverse;
+
  align-items: center;
- margin-right: 10px;
+
 }
 
-.number 
+/* .number 
 {display: flex;
   align-items: center;
 }
@@ -766,8 +766,8 @@ flex-direction:row-reverse;
 .number:focus
 {
   fill: 
-    #2196F3;
-}
+    #2196F3; */
+
 
 
 .post-email
@@ -781,7 +781,7 @@ flex-direction:row-reverse;
 {
   width: 16px;
   height: 12px;
-  fill: #757575;
+
 }
 
 .post-email-icon:hover,
@@ -794,7 +794,7 @@ flex-direction:row-reverse;
 .post-email-link
 {
   display: flex;
-flex-direction:row-reverse;
+/* flex-direction:row-reverse; */
  align-items: center;
  margin-right: 10px;
 }
