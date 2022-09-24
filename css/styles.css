@@ -501,7 +501,7 @@ color: rgba(255, 255, 255, 0.6);
   height:   80px;
 border-bottom:1px solid#ECECEC; 
 }
-
+ 
 
        .flex-container 
         { 
@@ -513,21 +513,20 @@ border-bottom:1px solid#ECECEC;
     padding-right: 0px;
     
     }  
-        
-
-
-  
+   
   
 .flex-element
 { 
+  display: block;
   width: 370px;
 
-
-
 }
-.flex-element:focus
+.flex-element:focus,
+.flex-element:hover
+
 {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+   1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .card-name
  {
@@ -570,17 +569,19 @@ border-top: none;
 
 {
  padding: 30px;
-
+/* 
  background: #FFFFFF;
- /* material shadow v1 */
+  material shadow v1 
  
  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
- border-radius: 0px 0px 4px 4px;
+ border-radius: 0px 0px 4px 4px; */
  }
 
 a{text-decoration: none;}
 
-.social-list{
+
+.social-list
+{
     display: flex; 
   justify-content: center;
   column-gap: 10px;
@@ -740,10 +741,15 @@ Fill: #212121;
 
 }
 
-/* .contakt-phone-icon:hover,
-.contakt-phone-icon:hover
-{fill: 
-  #2196F3;} */
+
+  .item-contakt:hover,
+  .item-contakt:focus
+{
+  fill: 
+  #2196F3;
+}
+
+
 
 .contakt-number
 {display: flex;
@@ -764,10 +770,13 @@ flex-direction:row-reverse;
 }
 
 
-.post-email{
+.post-email
+{
   display: flex;
   align-items: center;
 }
+
+
 .post-email-icon
 {
   width: 16px;
@@ -782,7 +791,8 @@ flex-direction:row-reverse;
   #2196F3; 
 }
 
-.post-email-link{
+.post-email-link
+{
   display: flex;
 flex-direction:row-reverse;
  align-items: center;
@@ -848,8 +858,6 @@ background-color:
     background-color: #2196F3;
 
 } 
-
-
 
 .social-list-icon-footer
  {
