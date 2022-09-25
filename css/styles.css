@@ -513,15 +513,24 @@ border-bottom:1px solid#ECECEC;
     padding-right: 0px;
     
     }  
-   
+    .currentColor.filter-list.Усі
+    :hover
+    {
+      background-color: #188CE8;
+    }
 .currentColor
 {
 color:var(--primary-text-color-theme-light);
 }
-.flex-element
-{ 
-  display: block;
+.img-list{
   width: 370px;
+ 
+}
+.flex-element
+{ display: block;
+  text-decoration: none;
+  width: 370px;
+
 
 }
 .flex-element:focus,
@@ -739,6 +748,7 @@ Fill: #212121;
 {
   width: 10px;
   height: 16px; 
+  margin-right: 10px;
 
   color: var(--secondary-text-color-theme-light);;
 }
@@ -783,6 +793,7 @@ Fill: #212121;
 {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
 
 }
 
