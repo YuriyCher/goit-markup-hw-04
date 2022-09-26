@@ -125,10 +125,7 @@ img
 
 
 
-.page-header
-  {
-    background: var(--primary-text-color-theme-dark);
-  }
+
 
 .page-header-container 
   {
@@ -173,6 +170,7 @@ img
         line-height: 1.14;
         letter-spacing: 0.02em;
         padding: 0;
+        background-color: var(--primary-text-color-theme-dark);
     }
     
        .button { cursor: pointer;}
@@ -416,7 +414,9 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 
   .contakt-email
   {font-weight: 500;
-    color: var(--secondary-text-color-theme-light);
+    fill:currentColor;
+    color:var( --secondary-text-color-theme-light);
+
    }
    .contakt-email:hover,
    .contakt-email:focus
@@ -498,7 +498,7 @@ color: rgba(255, 255, 255, 0.6);
    
    .box 
    {
-  height:   80px;
+ 
 border-bottom:1px solid#ECECEC; 
 }
  
@@ -647,7 +647,7 @@ background-color: #2196F3;
 .customers-list-link
 {
   display:flex;
-align-items:baseline;
+align-items:center;
  justify-content: center;
  
  border: 1px solid #AFB1B8;
@@ -667,12 +667,9 @@ fill: #AFB1B8;
 }
 .customers-list-icon
 {
-  display: flex;
-  align-items: center;
   width: 106px;
   height: 60px;
-  fill: 
-  #AFB1B8;
+
 }
 .customers-list-icon:focus,
 .customers-list-icon:hover 
@@ -689,23 +686,7 @@ fill: #AFB1B8;
   
   width: 170px;
   height: 92px;
- 
-
-    padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  border: #2196F3;
 } 
-
-
-
-.customers-list-link:hover.customers-list-icon
-{
-  fill:#2196F3;
- 
-} 
-
 
 .benefits-list-icon
 {
@@ -717,18 +698,12 @@ Fill: #212121;
 
 
 .benefits-icon{
-
+display: flex;
+align-items: center;
+justify-content: center;
   width: 270px;
   height: 120px;
-  fill: 
-  #F5F4FA;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
-
-    padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+ background-color: #F5F4FA;    
   margin-bottom: 30px;
 }
 
@@ -750,7 +725,6 @@ Fill: #212121;
   height: 16px; 
   margin-right: 10px;
 
-  color: var(--secondary-text-color-theme-light);;
 }
 
 
@@ -765,20 +739,16 @@ Fill: #212121;
 
 .contakt-email
 {display: flex;
-
- align-items: center;
+align-items: center;
 
 }
 
-/* .number 
+. 
 {display: flex;
   align-items: center;
 }
-.number:hover,
-.number:focus
-{
-  fill: 
-    #2196F3; */
+
+ 
 
 
 
